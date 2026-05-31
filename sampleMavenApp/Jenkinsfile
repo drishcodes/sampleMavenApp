@@ -9,11 +9,6 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/your-repo/sample-maven-app.git'
-            }
-        }
 
         stage('Build') {
             steps {
